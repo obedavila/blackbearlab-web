@@ -51,7 +51,7 @@ function Header() {
             href={buildWhatsAppLink()}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded border border-accent px-3 py-2 font-mono text-sm font-medium text-accent transition-colors hover:bg-accent hover:text-on-accent"
+            className="inline-flex items-center gap-2 rounded bg-foreground px-3 py-2 font-mono text-sm font-medium text-bg transition-opacity hover:opacity-90"
           >
             <MessageCircle className="h-4 w-4" aria-hidden="true" />
             WhatsApp
