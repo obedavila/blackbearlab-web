@@ -18,4 +18,10 @@ describe('SobreObed', () => {
     expect(screen.getByText(/desarrollador independiente/i)).toBeInTheDocument()
     expect(screen.getByText(/honduras/i)).toBeInTheDocument()
   })
+
+  it('renders a photo with descriptive alt text', () => {
+    render(<SobreObed />)
+    const image = screen.getByRole('img')
+    expect(image).toHaveAttribute('alt', expect.stringMatching(/.+/))
+  })
 })
