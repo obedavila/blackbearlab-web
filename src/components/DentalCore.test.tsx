@@ -8,10 +8,9 @@ describe('DentalCore', () => {
     expect(container.querySelector('#dentalcore')).toBeInTheDocument()
   })
 
-  it('mentions the price range from $200 to $450', () => {
+  it('mentions the single price of $700', () => {
     render(<DentalCore />)
-    expect(screen.getByText(/\$200/)).toBeInTheDocument()
-    expect(screen.getByText(/\$450/)).toBeInTheDocument()
+    expect(screen.getByText(/\$700/)).toBeInTheDocument()
   })
 
   it('mentions that it works without internet', () => {

@@ -29,7 +29,7 @@ function DentalCore() {
             <div>
               <p className="font-mono text-xs text-muted">LICENCIA ÚNICA</p>
               <p className="mt-2 font-display text-3xl text-accent sm:text-4xl">
-                $200 – $450 USD
+                $700 USD
               </p>
 
               <div className="mt-6 flex items-center gap-2 font-mono text-sm text-foreground">
