@@ -23,4 +23,10 @@ describe('Hero', () => {
     const secondaryCta = screen.getByRole('link', { name: /servicios/i })
     expect(secondaryCta).toHaveAttribute('href', '#servicios')
   })
+
+  it('renders a photo with descriptive alt text', () => {
+    render(<Hero />)
+    const image = screen.getByRole('img')
+    expect(image).toHaveAttribute('alt', expect.stringMatching(/.+/))
+  })
 })
