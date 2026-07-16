@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer id={SECTION_IDS.contacto} className="bg-bg px-4 py-16 sm:px-6">
       <div className="mx-auto max-w-6xl">
-        <p className="font-mono text-sm text-accent">07 // CONTACTO</p>
+        <p className="font-mono text-sm text-muted">07 // CONTACTO</p>
 
         <div className="mt-6 flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
           <div className="flex items-center gap-3">
@@ -30,7 +30,7 @@ function Footer() {
             href={buildWhatsAppLink()}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded border border-accent px-5 py-3 font-mono text-sm font-semibold text-accent transition-colors hover:bg-accent hover:text-on-accent"
+            className="inline-flex items-center gap-2 rounded bg-foreground px-5 py-3 font-mono text-sm font-semibold text-bg transition-opacity hover:opacity-90"
           >
             <MessageCircle className="h-4 w-4" aria-hidden="true" />
             Escribir por WhatsApp
