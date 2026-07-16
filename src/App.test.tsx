@@ -12,7 +12,7 @@ describe('App', () => {
     const { container } = render(<App />)
     expect(container.querySelector('#servicios')).toBeInTheDocument()
     expect(container.querySelector('#dentalcore')).toBeInTheDocument()
-    expect(container.querySelector('#reparacion')).toBeInTheDocument()
+    expect(container.querySelector('#servicio-tecnico')).toBeInTheDocument()
     expect(container.querySelector('#nosotros')).toBeInTheDocument()
     expect(container.querySelector('#contacto')).toBeInTheDocument()
   })

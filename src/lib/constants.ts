@@ -10,7 +10,7 @@ export function buildWhatsAppLink(message: string = WHATSAPP_DEFAULT_MESSAGE): s
 export const SECTION_IDS = {
   servicios: 'servicios',
   dentalcore: 'dentalcore',
-  reparacion: 'reparacion',
+  servicioTecnico: 'servicio-tecnico',
   nosotros: 'nosotros',
   contacto: 'contacto',
 } as const

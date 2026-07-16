@@ -3,7 +3,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import PorQue from './components/PorQue'
-import Reparacion from './components/Reparacion'
+import ServicioTecnico from './components/ServicioTecnico'
 import Servicios from './components/Servicios'
 import SobreObed from './components/SobreObed'
 
@@ -15,7 +15,7 @@ function App() {
         <Hero />
         <Servicios />
         <DentalCore />
-        <Reparacion />
+        <ServicioTecnico />
         <PorQue />
         <SobreObed />
       </main>
