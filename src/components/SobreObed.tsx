@@ -29,9 +29,10 @@ function SobreObed() {
           </div>
         </div>
 
+        {/* Placeholder: reemplazar por una foto real de Obed */}
         <img
           src={obedPhoto}
-          alt="Persona trabajando en una laptop (foto temporal, pendiente de reemplazo por una foto real de Obed)"
+          alt="Persona trabajando en una laptop"
           className="aspect-[4/3] w-full rounded-lg border border-border object-cover"
         />
       </div>

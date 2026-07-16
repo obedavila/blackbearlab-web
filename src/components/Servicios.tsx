@@ -30,6 +30,7 @@ function Servicios() {
 
         <div className="mt-12 grid gap-8 md:grid-cols-2">
           <article className="overflow-hidden rounded border border-border bg-surface">
+            {/* Placeholder stock photo */}
             <img
               src={servicesSoftwarePhoto}
               alt="Código fuente en la pantalla de una computadora"
@@ -54,6 +55,7 @@ function Servicios() {
           </article>
 
           <article className="overflow-hidden rounded border border-border bg-surface">
+            {/* Placeholder stock photo */}
             <img
               src={servicesSupportPhoto}
               alt="Laptop cerrada sobre un escritorio"

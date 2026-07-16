@@ -41,6 +41,7 @@ function Hero() {
           </div>
         </div>
 
+        {/* Placeholder stock photo — replace with a real BlackbearLab photo */}
         <img
           src={heroPhoto}
           alt="Persona escribiendo en el teclado de una laptop"

@@ -44,6 +44,7 @@ function ServicioTecnico() {
           </div>
         </div>
 
+        {/* Placeholder stock photo — replace with a real BlackbearLab photo */}
         <img
           src={servicioTecnicoPhoto}
           alt="Laptop plateada cerrada sobre una mesa blanca"

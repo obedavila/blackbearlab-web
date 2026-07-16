@@ -1,7 +1,7 @@
 # BlackbearLab — Landing Page
 
 Landing page de una sola página para BlackbearLab (Honduras): desarrollo de software a la medida
-(caso destacado: DentalCore) y reparación/actualización de hardware.
+(caso destacado: DentalCore) y soporte técnico/optimización de software.
 
 ## Stack
 
@@ -22,9 +22,8 @@ npm run lint      # oxlint
 
 ## Antes de publicar
 
-- Reemplazar `WHATSAPP_NUMBER` en `src/lib/constants.ts` (marcado como `TODO`) por el número real
-  de WhatsApp de BlackbearLab.
-- Los precios de reparación de hardware son intencionalmente variables ("cotización gratis, según
+- El número de WhatsApp de BlackbearLab está configurado en `src/lib/constants.ts` (WHATSAPP_NUMBER).
+- Los precios del servicio técnico son intencionalmente variables ("cotización gratis, según
   equipo"); no se agregaron precios fijos.
 
 ## Estructura

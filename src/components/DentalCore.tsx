@@ -55,6 +55,7 @@ function DentalCore() {
           </div>
         </div>
 
+        {/* Placeholder stock photo of dental clinic — illustrative of DentalCore's use case */}
         <img
           src={dentalCorePhoto}
           alt="Consultorio dental con silla de atención"
