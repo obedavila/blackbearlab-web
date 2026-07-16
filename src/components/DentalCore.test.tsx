@@ -25,4 +25,10 @@ describe('DentalCore', () => {
     expect(screen.getByText(/dentista/i)).toBeInTheDocument()
     expect(screen.getByText(/recepci[oó]n/i)).toBeInTheDocument()
   })
+
+  it('renders an illustrative photo with descriptive alt text', () => {
+    render(<DentalCore />)
+    const image = screen.getByRole('img')
+    expect(image).toHaveAttribute('alt', expect.stringMatching(/.+/))
+  })
 })
